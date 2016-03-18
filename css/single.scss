@@ -1,0 +1,143 @@
+.contenido--Menu {
+	.menu--Ul {
+		padding: 0.5em $cero;
+		margin: $cero;
+		.list {
+			display: inline-block;
+			font-size: 1.2em;
+			color: #A6A8AD;
+			a {
+				color: #A6A8AD;
+				text-decoration: none;
+			}
+		}
+		.list:nth-child(2):after {
+			content: ">>";
+			color: #A6A8AD;
+		}
+		.list:nth-child(2):before {
+			content: ">>";
+			color: #A6A8AD;
+		}
+	}
+}
+.contenido {
+	display: flex;
+	justify-content: space-between;
+	.contenidoSingle--Iz {
+		width: 65%;
+	}
+	.contenidoSingle--Iz .contenidoSingle--Iz--Article .contenidoSingle--Iz--Header {
+		.title {
+			color: #E2001A;
+			font-weight: 800;
+
+		}
+	}
+	.contenidoSingle--Iz .contenidoSingle--Iz--Article .contenidoSingle--Iz--Date {
+		.date--Iz {
+			margin: 0 0 1em 0;
+		}
+		.date--Iz .title {
+			font-size: 0.75em;
+		}
+	}
+	.contenidoSingle--De {
+		width: 30%;
+	}
+}
+.contenidoSingle--Iz--Contenido {
+	font-family: 'Crimson Text', serif;
+   
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+    p {
+    	font-size: 1.1em;
+    }
+	p img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	p a img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+.contenidoSingle--Iz--Escucha .escucha--primary {
+	text-align: center;
+	.escucha {
+		font-weight: 700;
+		a {
+			color: rgb(226,0,26);
+			text-decoration: underline;
+		}
+	}
+}
+.contenidoSingle--Iz--Escucha .escucha--header {
+	width: 70%;
+	margin: 0 auto;
+	background: #E2001A;
+	text-align: center;
+	color: white;
+	padding: 1em 0 0 0;
+	.title {
+		font-size: 1em;
+		margin: 0 0 1em 0;
+		.radioLink {
+			color: orange;
+		}
+	}
+}
+.contenidoSingle--De--Section {
+	width: 100%;
+	.section--Header {
+		background: #E2001A;
+		text-align: center;
+		padding: 0.2em 0;
+		margin: 0 0 0.5em 0;
+		.title {
+			color: white;
+			text-shadow: 0 2px 2px black;
+		}
+	}
+	.section--Article {
+		width: 100%;
+		overflow: hidden;
+		margin: 0 0 0.5em 0;
+		.section--Article--Figure {
+			width: 50%;
+			float: left;
+			img {
+				width: 139px;
+				height: 98px;
+				display: block;
+			}
+		}
+		.section--Article--Description {
+			float: right;
+			width: 45%;
+			padding: 0 0 0 1em;
+			font-size: 12px;
+			.link {
+				text-decoration: none;
+				color: black;
+				font-weight: 300;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			.link--VerMas {
+				text-align: right;
+				.linkVerMas {
+					font-weight: 700;
+					color: rgb(242,121,39);
+				}
+			}
+		}
+	}
+}

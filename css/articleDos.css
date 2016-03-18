@@ -1,0 +1,8 @@
+.tercerContenido--Iz--Article .iz--Header {
+  background-color: #E2001A;
+}
+
+.tercerContenido--Iz--Article .iz--Header .title {
+  color: white;
+  padding: 0.5em 0;
+}

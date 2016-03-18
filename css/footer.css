@@ -1,0 +1,16 @@
+.footer {
+  width: 930px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer--Iz {
+  width: 30%;
+  background-color: #E2001A;
+}
+
+.footer .footer--De {
+  width: 70%;
+  background-color: #231F20;
+}

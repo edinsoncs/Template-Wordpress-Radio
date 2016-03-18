@@ -1,0 +1,62 @@
+.footer {
+	width: 962px;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+	.footer--Iz {
+		width: 30%;
+		background-color: #E2001A;
+		.iz--Header {
+			text-align: $center;
+		}
+		.iz--Header .title {
+			color: $blanco;
+			font-size: 1.8em;
+			text-shadow: 0 2px 2px black;
+		}
+		.iz--Ul .list {
+			list-style-type: none;
+			font-size: 1.5em;
+			text-shadow: 0 2px 2px black;
+			.link {
+				color: $blanco;
+			}
+		}
+	}
+	.footer--De {
+
+		width: 70%;
+		background-color: #231F20;
+		.De--Header {
+			width: 33%;
+		    text-align: left;
+		    margin: 0 0 0 1em;
+		}
+		.de--Ul .list {
+			.link {
+				font-size: 2em;
+				color: $blanco;
+				display: flex;
+				align-items: center;
+				img {
+					margin: 0 0.5em 0 0;
+				}
+			}
+		}
+		.De--Header .title {
+			color: $blanco;
+			font-size: 1.4em;
+		}
+		.de-Grupo {
+			text-align: $center;
+			margin: 6em 0;
+			.de--Grupo--P {
+				color: $blanco;
+			}
+		}
+		.De--Derechos .title {
+			color: $blanco;
+			margin: 0 0 0 1em;
+		}
+	}
+}

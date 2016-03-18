@@ -1,0 +1,46 @@
+.segundoContenido--De {
+	.de--Publicidad {
+		.de--Publicidad--Header {
+			background-color: #E2001A;
+			padding: 0.5em 0;
+			text-align: $center;
+			.title {
+				color: $blanco;
+				text-shadow: 0 2px 2px black;
+			}
+		}
+	}
+}
+
+.article--Ranking {
+	display: flex;
+	align-items: center;
+	margin: 0 0 0.5em 0;
+	.ranking--Figure {
+		width: 100px;
+		height: 67px;
+		img {
+			width: 100%;
+			height: 67px;
+			display: block;
+		}
+	}
+	.ranking--Num {
+		width: 100px;
+		height: 67px;
+		text-align: $center;
+		background-color: rgb(253,70,39);
+		.title--Num {
+			font-size: 3em;
+			color: white;
+		}
+	}
+	.ranking--Description {
+		width: 90px;
+	    margin: 0 0 0 0.8em;
+		.description {
+			font-size: 0.7em;
+			font-weight: 700;
+		}
+	}
+}
